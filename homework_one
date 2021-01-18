@@ -1,0 +1,2 @@
+touch ~/-delete-me
+rm -f ~/-delete-me
