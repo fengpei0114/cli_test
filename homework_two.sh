@@ -1,6 +1,6 @@
 #！ /bin/bash
 basepath=$(cd `dirname $0`; pwd)
-
+echo "$1"
 git init
 git add .
 git commit -m "first commit"
