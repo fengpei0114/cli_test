@@ -1,6 +1,6 @@
 #！ /bin/bash
 basepath=$(cd `dirname $0`; pwd)
-Msg = "$1" || "first commit"
+Msg = "$1"
 echo "Msg"
 echo "====================="
 git init
