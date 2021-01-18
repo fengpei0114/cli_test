@@ -1,6 +1,5 @@
 #！ /bin/bash
 basepath=$(cd `dirname $0`; pwd)
-cd ${basepath}/test_file
 
 git init
 git add .
