@@ -1,7 +1,7 @@
 #！ /bin/bash
 basepath=$(cd `dirname $0`; pwd)
 Msg = "$1" || "first commit"
-echo Msg
+echo "Msg"
 echo "====================="
 git init
 git add .
